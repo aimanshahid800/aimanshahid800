@@ -1,3 +1,5 @@
+![banner](https://github.com/aimanshahid800/aimanshahid800/blob/main/bannar.jpg?raw=true)
+
 <h1 align="center">👋 HI, This is AIMAN SHAHID !😊 </h1>
 <h3 align="center">Becoming an Ai Engineer working on AgenticAi</h3>
 
