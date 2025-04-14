@@ -1,7 +1,7 @@
 <h1 align="center">👋 HI, This is AIMAN SHAHID !😊 </h1>
 <h3 align="center">Becoming an Ai Engineer working on AgenticAi</h3>
 
-<img align="right" alt="coding" width="400" src="https://user-images.githubusercontent.com/55389276/140866485-8fb1c876-9a8f-4d6a-98dc-08c4981eaf70.gif">
+<div><img align="right" alt="coding" width="400" src="https://i.redd.it/w3n46nk83ir81.gif"></div>
 
 - 👨‍💻 All of my projects are available at [https://github.com/aimanshahid800](https://github.com/aimanshahid800)
 
@@ -17,7 +17,7 @@
 
 ###
 
-<img align="right" height="150" src="https://i.imgflip.com/65efzo.gif"  />
+<img align="right" height="150" src="https://i.pinimg.com/originals/84/02/95/840295c56813e7edb116a3232f3952a1.gif"  />
 
 ###
 
