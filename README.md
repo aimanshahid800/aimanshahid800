@@ -1,4 +1,5 @@
-![banner](https://github.com/aimanshahid800/aimanshahid800/blob/main/bannar.jpg?raw=true)
+<img src="https://github.com/aimanshahid800/aimanshahid800/blob/main/bannar.jpg?raw=true" style="width: 100%;" />
+
 
 <h1 align="center">👋 HI, This is AIMAN SHAHID !😊 </h1>
 <h3 align="center">Becoming an Ai Engineer working on AgenticAi</h3>
@@ -15,11 +16,6 @@
 ![](https://github-readme-stats.vercel.app/api?username=aimanshahid800&theme=radical&hide_border=true&include_all_commits=false&count_private=false)<br/>
 ![](https://nirzak-streak-stats.vercel.app/?user=aimanshahid800&theme=radical&hide_border=true)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=aimanshahid800&theme=radical&hide_border=true&include_all_commits=false&count_private=false&layout=compact)
-
-
-###
-
-<img align="right" height="150" src="https://i.pinimg.com/originals/84/02/95/840295c56813e7edb116a3232f3952a1.gif"  />
 
 ###
 
