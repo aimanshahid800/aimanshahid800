@@ -70,7 +70,9 @@
 
 ###
 
-<img src="https://raw.githubusercontent.com/aimanshahid800/aimanshahid800/output/snake.svg" alt="Snake animation" />
+
+![Snake animation](https://raw.githubusercontent.com/aimanshahid800/aimanshahid800/output/github-contribution-grid-snake.svg#gh-light-mode-only)
+![Snake animation](https://raw.githubusercontent.com/aimanshahid800/aimanshahid800/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
 
 ###
 
