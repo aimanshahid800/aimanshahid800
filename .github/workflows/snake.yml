@@ -1,0 +1,36 @@
+name: Generate snake
+
+on:
+  # Roz ek dafa run
+  schedule:
+    - cron: "0 0 * * *"
+  # Manual trigger bhi chahiye
+  workflow_dispatch:
+  # Jab main branch par push ho to try kare
+  push:
+    branches: ["main"]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate snake SVGs
+        uses: Platane/snk@v3
+        with:
+          github_user_name: aimanshahid800
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Upload snake artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: snake-artifacts
+          path: dist/*
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: output
