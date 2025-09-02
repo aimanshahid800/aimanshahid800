@@ -16,6 +16,8 @@
 
 - 📄 Know about my experiences [https://www.linkedin.com/in/aiman-shahid-b49035320/](https://www.linkedin.com/in/aiman-shahid-b49035320/)
 
+- 🌐 Check out my portfolio here: [My Portfolio](https://your-portfolio-link.com)
+
 - ⚡ Fun fact **I think i am COOL 😁.**
 
 <h3 align="left">Connect with me:</h3>
