@@ -1,7 +1,11 @@
-<img src="https://github.com/aimanshahid800/aimanshahid800/blob/main/bannar.jpg?raw=true" style="width: 100%;" />
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=45&pause=1000&center=true&vCenter=true&width=1100&lines=👋+I'm+Aiman+Shahid;🚀+Full+Stack+Developer+%7C+AI+Engineer;🤖+Becoming+an+Ai+Engineer+working+on+Agentic+AI;💻+Turning+Ideas+into+Reality" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=45&pause=1000&center=true&vCenter=true&width=1100&lines=👋+I'm+Aiman+Shahid;🚀+Full+Stack+Developer+%7C+AI+Engineer;🤖+Becoming+an+Ai+Engineer;👩🏻‍💻working+on+Agentic+AI;💻+Turning+Ideas+into+Reality" alt="Typing SVG" />
 </p>
+
+<br>
+
+<img src="https://github.com/aimanshahid800/aimanshahid800/blob/main/bannar.jpg?raw=true" style="width: 100%;" />
+
 
 <div><img align="right" alt="coding" width="400" src="https://i.redd.it/w3n46nk83ir81.gif"></div>
 
