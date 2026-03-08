@@ -4,6 +4,24 @@
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=45&pause=1000&color=FF6B6B,FFD700,00FF88,00BFFF,FF69B4&center=true&vCenter=true&width=1100&lines=👋+I'm+Aiman+Shahid;🚀+Full+Stack+Developer+%7C+AI+Engineer;🤖+Becoming+an+AI+Engineer;👩🏻‍💻+Working+on+Agentic+AI;💻+Turning+Ideas+into+Reality" alt="Typing SVG" />
 </p>
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=45&pause=1000&color=FF6B6B&center=true&vCenter=true&width=1100&lines=👋+I'm+Aiman+Shahid" />
+  <br/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=45&pause=1000&color=FFD700&center=true&vCenter=true&width=1100&lines=🚀+Full+Stack+Developer+%7C+AI+Engineer" />
+  <br/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=45&pause=1000&color=00FF88&center=true&vCenter=true&width=1100&lines=🤖+Becoming+an+AI+Engineer" />
+  <br/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=45&pause=1000&color=00BFFF&center=true&vCenter=true&width=1100&lines=👩🏻‍💻+Working+on+Agentic+AI" />
+  <br/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=45&pause=1000&color=FF69B4&center=true&vCenter=true&width=1100&lines=💻+Turning+Ideas+into+Reality" />
+</p>
+```
+
+Yeh **ek hi line** par type hoga, erase hoga, phir next line — exactly jo tum chahti thi. 
+
+Aur color change ke liye wahi multiple colors wala trick:
+```
+&color=F75C7E,FFD700,00FF88,00BFFF,FF69B4
 
 <br>
 
