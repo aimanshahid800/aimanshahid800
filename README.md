@@ -32,6 +32,18 @@
 
 ###
 
+## 🚀 Featured Projects
+
+| Project | Tech | Description |
+|---------|------|-------------|
+| [🎓 Google Classroom Clone](https://github.com/aimanshahid800/google-classroom-clone-2) | PHP, MySQL, CSS | Full-stack classroom app with role-based access, assignments, comments & dark mode. Built in a 4-member team. |
+| [🤖 Nyra Chatbot](https://github.com/aimanshahid800/Nyra--ui-chatbot-) | FastAPI, Qdrant, RAG | Personal RAG-based study assistant with glassmorphic UI |
+| 🧠 AI Task Teller | OpenAI Agents SDK, Chainlit | Multi-agent orchestration system with handoffs |
+
+###
+
+###
+
 ![](https://github-readme-stats.vercel.app/api?username=aimanshahid800&theme=radical&hide_border=true&include_all_commits=false&count_private=false)<br/>
 ![](https://nirzak-streak-stats.vercel.app/?user=aimanshahid800&theme=radical&hide_border=true)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=aimanshahid800&theme=radical&hide_border=true&include_all_commits=false&count_private=false&layout=compact)
