@@ -38,7 +38,6 @@
 |---------|------|-------------|
 | [🎓 Google Classroom Clone](https://github.com/aimanshahid800/google-classroom-clone-2) | PHP, MySQL, CSS | Full-stack classroom app with role-based access, assignments, comments & dark mode. Built in a 4-member team. |
 | [🤖 Nyra Chatbot](https://github.com/aimanshahid800/Nyra--ui-chatbot-) | FastAPI, Qdrant, RAG | Personal RAG-based study assistant with glassmorphic UI |
-| 🧠 AI Task Teller | OpenAI Agents SDK, Chainlit | Multi-agent orchestration system with handoffs |
 
 ###
 
