@@ -9,7 +9,7 @@
 
 <div><img align="right" alt="coding" width="400" src="https://i.redd.it/w3n46nk83ir81.gif"></div>
 
-- 🔭 I’m currently working on [Nyra-Chatbot(Personal-Study-Assistent)](https://github.com/aimanshahid800/Nyra--ui-chatbot-)
+- 🔭 I’m currently working on [Nyra-Chatbot(Personal-Study-Assistent)]([https://github.com/aimanshahid800/Nyra--ui-chatbot-](https://github.com/aimanshahid800/Nyra-AI-Chatbot))
 
 - 🌱 I’m currently learning **OpenAi-SDK ,AgenticAI Cources.**
 
