@@ -7,3 +7,14 @@
 </picture>
 
 </div>
+<br/>
+
+<table align="center" border="0">
+<tr>
+<td width="38%" align="center" valign="middle">
+
+<!-- 🪪 Swinging Lanyard ID Card (React Bits style, pure SVG) -->
+<img src="./aiman-lanyard.svg?v=2" alt="Aiman Shahid ID badge" width="330"/>
+
+</td>
+<td width="62%" valign="middle">
