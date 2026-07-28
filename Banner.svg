@@ -14,7 +14,6 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
 @keyframes twinkle{0%,100%{opacity:0;transform:scale(.4)}50%{opacity:1;transform:scale(1)}}
 @keyframes rise{0%{transform:translateY(0);opacity:0}12%{opacity:.55}88%{opacity:.55}100%{transform:translateY(-46px);opacity:0}}
 @keyframes pulse{0%,100%{opacity:.3}50%{opacity:.8}}
-@keyframes flow{0%{stroke-dashoffset:1000}100%{stroke-dashoffset:0}}
 .ltr{opacity:0;animation:popIn .5s cubic-bezier(.2,.8,.3,1.3) forwards;transform-box:fill-box;transform-origin:center bottom}
 .ii,.pill,.soc,.st,.cl{opacity:0}
 .pill{transition:transform .2s ease,filter .2s ease;transform-box:fill-box;transform-origin:center;cursor:pointer}
@@ -54,8 +53,8 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
 
 <clipPath id="cPrompt"><rect x="48" y="48" width="0" height="32"><animate attributeName="width" from="0" to="480" dur="1s" begin=".3s" fill="freeze"/></rect></clipPath>
 <clipPath id="cHi"><rect x="48" y="86" width="0" height="42"><animate attributeName="width" from="0" to="200" dur=".5s" begin="1.2s" fill="freeze"/></rect></clipPath>
-<clipPath id="q1"><rect x="76" y="258" width="0" height="46"><animate attributeName="width" from="0" to="300" dur=".7s" begin="3.4s" fill="freeze"/></rect></clipPath>
-<clipPath id="q2"><rect x="76" y="284" width="0" height="46"><animate attributeName="width" from="0" to="300" dur=".6s" begin="4.2s" fill="freeze"/></rect></clipPath>
+<clipPath id="q1"><rect x="76" y="258" width="0" height="46"><animate attributeName="width" from="0" to="350" dur=".7s" begin="3.4s" fill="freeze"/></rect></clipPath>
+<clipPath id="q2"><rect x="76" y="284" width="0" height="46"><animate attributeName="width" from="0" to="350" dur=".6s" begin="4.2s" fill="freeze"/></rect></clipPath>
 <clipPath id="r1"><rect x="48" y="216" width="0" height="36"><animate attributeName="width" values="0;0;300;300;0;0" keyTimes="0;.01;.07;.2;.24;1" dur="24s" repeatCount="indefinite" begin="2.9s"/></rect></clipPath>
 <clipPath id="r2"><rect x="48" y="216" width="0" height="36"><animate attributeName="width" values="0;0;300;300;0;0" keyTimes="0;.26;.32;.45;.49;1" dur="24s" repeatCount="indefinite" begin="2.9s"/></rect></clipPath>
 <clipPath id="r3"><rect x="48" y="216" width="0" height="36"><animate attributeName="width" values="0;0;300;300;0;0" keyTimes="0;.51;.57;.7;.74;1" dur="24s" repeatCount="indefinite" begin="2.9s"/></rect></clipPath>
@@ -64,9 +63,6 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
   <stop offset="0%" stop-color="#00d4ff" stop-opacity="0"/><stop offset="18%" stop-color="#00d4ff"/>
   <stop offset="50%" stop-color="#a855f7"/><stop offset="82%" stop-color="#7c3aed"/>
   <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
-</linearGradient>
-<linearGradient id="scanTrail" x1="0" y1="0" x2="0" y2="1">
-  <stop offset="0%" stop-color="#00d4ff" stop-opacity="0"/><stop offset="100%" stop-color="#00d4ff" stop-opacity=".22"/>
 </linearGradient>
 <clipPath id="girlReveal"><rect x="722" y="152" width="558" height="0">
   <animate attributeName="height" from="0" to="522" dur="1.8s" begin=".5s" fill="freeze"/>
@@ -128,7 +124,7 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
 
 <!-- Quote box -->
 <g class="cl" style="animation:fadeIn .5s ease 3.2s forwards">
-  <rect x="48" y="262" width="380" height="72" rx="8" fill="#1c1230" stroke="#3b2a5c" stroke-width="1"/>
+  <rect x="48" y="262" width="420" height="72" rx="8" fill="#1c1230" stroke="#3b2a5c" stroke-width="1"/>
   <rect x="48" y="266" width="3.5" height="64" rx="1.5" fill="#00d4ff"/>
 </g>
 <text clip-path="url(#q1)" x="76" y="292" font-size="15" fill="#e6edf3">I don't just use AI,</text>
@@ -139,10 +135,10 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
 <g class="pill" style="animation:fadeIn .3s ease 4.8s forwards"><rect x="48" y="388" width="70" height="26" rx="13" fill="rgba(59,130,246,.15)" stroke="#3b82f6" stroke-width="1"/><text x="83" y="405" text-anchor="middle" font-size="11" fill="#60a5fa" font-weight="bold">Python</text></g>
 <g class="pill" style="animation:fadeIn .3s ease 4.9s forwards"><rect x="126" y="388" width="80" height="26" rx="13" fill="rgba(16,185,129,.15)" stroke="#10b981" stroke-width="1"/><text x="166" y="405" text-anchor="middle" font-size="11" fill="#34d399" font-weight="bold">FastAPI</text></g>
 <g class="pill" style="animation:fadeIn .3s ease 5s forwards"><rect x="214" y="388" width="70" height="26" rx="13" fill="rgba(99,102,241,.15)" stroke="#6366f1" stroke-width="1"/><text x="249" y="405" text-anchor="middle" font-size="11" fill="#818cf8" font-weight="bold">React</text></g>
-<g class="pill" style="animation:fadeIn .3s ease 5.1s forwards"><rect x="48" y="422" width="80" height="26" rx="13" fill="rgba(0,0,0,.25)" stroke="#000000" stroke-width="1"/><text x="88" y="405" text-anchor="middle" font-size="11" fill="#ffffff" font-weight="bold">Next.js</text></g>
+<g class="pill" style="animation:fadeIn .3s ease 5.1s forwards"><rect x="48" y="422" width="80" height="26" rx="13" fill="rgba(0,0,0,.25)" stroke="#000000" stroke-width="1"/><text x="88" y="439" text-anchor="middle" font-size="11" fill="#ffffff" font-weight="bold">Next.js</text></g>
 <g class="pill" style="animation:fadeIn .3s ease 5.2s forwards"><rect x="136" y="422" width="95" height="26" rx="13" fill="rgba(59,130,246,.15)" stroke="#3b82f6" stroke-width="1"/><text x="183" y="439" text-anchor="middle" font-size="11" fill="#60a5fa" font-weight="bold">TypeScript</text></g>
 <g class="pill" style="animation:fadeIn .3s ease 5.3s forwards"><rect x="239" y="422" width="80" height="26" rx="13" fill="rgba(16,185,129,.15)" stroke="#10b981" stroke-width="1"/><text x="279" y="439" text-anchor="middle" font-size="11" fill="#34d399" font-weight="bold">OpenAI</text></g>
-<g class="pill" style="animation:fadeIn .3s ease 5.4s forwards"><rect x="48" y="456" width="130" height="26" rx="13" fill="rgba(139,92,246,.15)" stroke="#8b5cf6" stroke-width="1"/><text x="113" y="473" text-anchor="middle" font-size="11" fill="#a78bfa" font-weight="bold">OpenAI Agents SDK</text></g>
+<g class="pill" style="animation:fadeIn .3s ease 5.4s forwards"><rect x="48" y="456" width="130" height="26" rx="13" fill="rgba(139,92,246,.15)" stroke="#8b5cf6" stroke-width="1"/><text x="113" y="473" text-anchor="middle" font-size="10" fill="#a78bfa" font-weight="bold">OpenAI Agents SDK</text></g>
 <g class="pill" style="animation:fadeIn .3s ease 5.5s forwards"><rect x="186" y="456" width="70" height="26" rx="13" fill="rgba(236,72,153,.15)" stroke="#ec4899" stroke-width="1"/><text x="221" y="473" text-anchor="middle" font-size="11" fill="#f472b6" font-weight="bold">Qdrant</text></g>
 <g class="pill" style="animation:fadeIn .3s ease 5.6s forwards"><rect x="264" y="456" width="95" height="26" rx="13" fill="rgba(14,165,233,.15)" stroke="#0ea5e9" stroke-width="1"/><text x="311" y="473" text-anchor="middle" font-size="11" fill="#38bdf8" font-weight="bold">Supabase</text></g>
 <g class="pill" style="animation:fadeIn .3s ease 5.7s forwards"><rect x="48" y="490" width="55" height="26" rx="13" fill="rgba(245,158,11,.15)" stroke="#f59e0b" stroke-width="1"/><text x="75" y="507" text-anchor="middle" font-size="11" fill="#fbbf24" font-weight="bold">RAG</text></g>
@@ -153,17 +149,17 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
 
 <!-- About Me -->
 <text class="ii" x="48" y="540" font-size="15" fill="#00d4ff" font-weight="bold" style="animation:fadeIn .4s ease 6.3s forwards">💗 About Me</text>
-<text class="ii" x="48" y="566" font-size="13" style="animation:fadeIn .4s ease 6.5s forwards"><tspan fill="#00d4ff">&gt;_ </tspan><tspan fill="#cdd3dd">I build intelligent AI systems using Agentic AI,</tspan></text>
-<text class="ii" x="48" y="586" font-size="13" style="animation:fadeIn .4s ease 6.7s forwards"><tspan fill="#cdd3dd">   RAG pipelines and Multi-Agent Architectures.</tspan></text>
-<text class="ii" x="48" y="610" font-size="13" style="animation:fadeIn .4s ease 6.9s forwards"><tspan fill="#7c3aed">💡 </tspan><tspan fill="#cdd3dd">Passionate about solving real-world problems</tspan></text>
-<text class="ii" x="48" y="630" font-size="13" style="animation:fadeIn .4s ease 7.1s forwards"><tspan fill="#00d4ff">🚀 </tspan><tspan fill="#cdd3dd">Always learning. Always building.</tspan></text>
+<text class="ii" x="48" y="566" font-size="12.5" style="animation:fadeIn .4s ease 6.5s forwards"><tspan fill="#00d4ff">&gt;_ </tspan><tspan fill="#cdd3dd">I build intelligent AI systems using Agentic AI,</tspan></text>
+<text class="ii" x="48" y="586" font-size="12.5" style="animation:fadeIn .4s ease 6.7s forwards"><tspan fill="#cdd3dd">   RAG pipelines and Multi-Agent Architectures.</tspan></text>
+<text class="ii" x="48" y="610" font-size="12.5" style="animation:fadeIn .4s ease 6.9s forwards"><tspan fill="#7c3aed">💡 </tspan><tspan fill="#cdd3dd">Passionate about solving real-world problems</tspan></text>
+<text class="ii" x="48" y="630" font-size="12.5" style="animation:fadeIn .4s ease 7.1s forwards"><tspan fill="#00d4ff">🚀 </tspan><tspan fill="#cdd3dd">Always learning. Always building.</tspan></text>
 
 <!-- Projects -->
-<text class="ii" x="48" y="660" font-size="15" fill="#7c3aed" font-weight="bold" style="animation:fadeIn .4s ease 7.3s forwards">📁 Projects</text>
-<text class="ii" x="48" y="682" font-size="12" style="animation:fadeIn .3s ease 7.5s forwards"><tspan fill="#00d4ff">• </tspan><tspan fill="#e6edf3">Mood-Sync — AI Task Prioritization</tspan></text>
-<text class="ii" x="48" y="700" font-size="12" style="animation:fadeIn .3s ease 7.6s forwards"><tspan fill="#00d4ff">• </tspan><tspan fill="#e6edf3">Nyra — RAG Chatbot</tspan></text>
-<text class="ii" x="200" y="682" font-size="12" style="animation:fadeIn .3s ease 7.7s forwards"><tspan fill="#7c3aed">• </tspan><tspan fill="#e6edf3">AI Task Teller — OpenAI Agents SDK</tspan></text>
-<text class="ii" x="200" y="700" font-size="12" style="animation:fadeIn .3s ease 7.8s forwards"><tspan fill="#7c3aed">• </tspan><tspan fill="#e6edf3">Google Classroom Clone</tspan></text>
+<text class="ii" x="48" y="660" font-size="15" fill="#7c3aed" font-weight="bold" style="animation:fadeIn .4s ease 7.3s forwards"> Projects</text>
+<text class="ii" x="48" y="682" font-size="11.5" style="animation:fadeIn .3s ease 7.5s forwards"><tspan fill="#00d4ff">• </tspan><tspan fill="#e6edf3">Mood-Sync — AI Task Prioritization</tspan></text>
+<text class="ii" x="48" y="700" font-size="11.5" style="animation:fadeIn .3s ease 7.6s forwards"><tspan fill="#00d4ff">• </tspan><tspan fill="#e6edf3">Nyra — RAG Chatbot</tspan></text>
+<text class="ii" x="220" y="682" font-size="11.5" style="animation:fadeIn .3s ease 7.7s forwards"><tspan fill="#7c3aed">• </tspan><tspan fill="#e6edf3">AI Task Teller — OpenAI Agents SDK</tspan></text>
+<text class="ii" x="220" y="700" font-size="11.5" style="animation:fadeIn .3s ease 7.8s forwards"><tspan fill="#7c3aed">• </tspan><tspan fill="#e6edf3">Google Classroom Clone</tspan></text>
 
 <!-- Stats card -->
 <g class="st" style="animation:fadeIn .5s ease 8s forwards">
@@ -171,10 +167,10 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
   <line x1="188" y1="598" x2="188" y2="640" class="sep"/>
   <line x1="328" y1="598" x2="328" y2="640" class="sep"/>
   <line x1="468" y1="598" x2="468" y2="640" class="sep"/>
-  <text x="118" y="612" text-anchor="middle" font-size="11.5" fill="#9aa4b2"> Projects</text>
-  <text x="258" y="612" text-anchor="middle" font-size="11.5" fill="#9aa4b2"> Certificates</text>
-  <text x="398" y="612" text-anchor="middle" font-size="11.5" fill="#9aa4b2">️ Technologies</text>
-  <text x="538" y="612" text-anchor="middle" font-size="11.5" fill="#9aa4b2">🤖 AI Focus</text>
+  <text x="118" y="612" text-anchor="middle" font-size="11" fill="#9aa4b2"> Projects</text>
+  <text x="258" y="612" text-anchor="middle" font-size="11" fill="#9aa4b2"> Certificates</text>
+  <text x="398" y="612" text-anchor="middle" font-size="11" fill="#9aa4b2"> Technologies</text>
+  <text x="538" y="612" text-anchor="middle" font-size="11" fill="#9aa4b2">🤖 AI Focus</text>
 </g>
 <text class="st" x="118" y="640" text-anchor="middle" font-size="18" font-weight="bold" fill="#00d4ff" filter="url(#glow)" style="animation:fadeIn .4s ease 8.2s forwards">04+</text>
 <text class="st" x="258" y="640" text-anchor="middle" font-size="18" font-weight="bold" fill="#7c3aed" filter="url(#glow)" style="animation:fadeIn .4s ease 8.35s forwards">05+</text>
@@ -185,7 +181,7 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
 <circle cx="1000" cy="440" r="270" fill="url(#girlGlow)"><animate attributeName="r" values="270;292;270" dur="5s" repeatCount="indefinite"/></circle>
 <g class="fl">
   <g clip-path="url(#girlReveal)">
-    <image x="722" y="152" width="558" height="522" href="[YOUR_IMAGE_BASE64]"/>
+    <image x="722" y="152" width="558" height="522" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA+gAAALuCAMAAADGzeM+AAADAFBMVEX////////////////////////////////////////////////////////////q6kH8/Pz6+vr7+/v8/Pz9/f3+/v7///8CAgL///8AAAD///8AAAAAAAD///8AAAAAAAAAAAD///8AAAAAAAAAAAD///8AAAAAAAAAAAD///8AAAAAAAAAAAD///8AAAAAAAAAAAD///8AAAAAAAAAAAD///8AAAAAAAAAAAD///8AAAAAAAAAAAD///8AAAAAAAAAAAD///8AAAAAAAAAAAD///8AAAAAAAAAAAD///8AAAAAAAAAAAD///8AAAAAAAAAAAD///8AAAAAAAAAAAD///8AAAAAAAAAAAD///8AAAAAAAAAAAD///8AAAAAAAAAAAD///8AAAAAAAA......"/>
   </g>
   <g clip-path="url(#girlBox)">
     <rect x="722" y="150" width="558" height="4" fill="url(#scanEdge)" filter="url(#glow)" opacity="0">
@@ -203,7 +199,7 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
   <circle cx="572" cy="54" r="4.5" fill="#ff5f57"/><circle cx="588" cy="54" r="4.5" fill="#febc2e"/><circle cx="604" cy="54" r="4.5" fill="#28c840"/>
   <text x="695" y="58" text-anchor="middle" font-size="11" fill="#8b949e">agents.py</text>
 </g>
-<g font-size="12.5">
+<g font-size="12">
   <text class="cl" x="568" y="90" style="animation:fadeIn .3s ease 1.8s forwards"><tspan fill="#a855f7">class</tspan><tspan fill="#00d4ff"> AgentBuilder</tspan><tspan fill="#e6edf3">:</tspan></text>
   <text class="cl" x="582" y="110" style="animation:fadeIn .3s ease 2.1s forwards"><tspan fill="#a855f7">def</tspan><tspan fill="#06b6d4"> build_system</tspan><tspan fill="#e6edf3">(self):</tspan></text>
   <text class="cl" x="596" y="130" style="animation:fadeIn .3s ease 2.4s forwards"><tspan fill="#e6edf3">    </tspan><tspan fill="#a855f7">return</tspan><tspan fill="#e6edf3"> [</tspan></text>
