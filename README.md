@@ -18,3 +18,22 @@
 
 </td>
 <td width="62%" valign="middle">
+### 🌸 My Anime Creations
+
+| 🎌 Project | 💻 Tech | ⭐ |
+|:---|:---:|:---:|
+| [🍥 Naruto — Sage Mode](https://github.com/Meghamittal0920/Naruto-SageMode) | `HTML` `CSS` `JS` | 25 |
+| [⚔️ Zoro — King of Hell](https://github.com/Meghamittal0920/Zoro-King-of-hell) | `HTML` `CSS` `JS` | 9 |
+| [🌙 Demon Slayer — Yoriichi & Kokushibo](https://github.com/Meghamittal0920/Demon-Slayer-Yorichi-Kokoshibo-) | `HTML` `CSS` `JS` | 8 |
+| [👁️ JJK — Sukuna](https://github.com/Meghamittal0920/JJK-Sakuna) | `HTML` `CSS` `JS` | 8 |
+| [🏴‍☠️ One Piece 3D Website](https://github.com/Meghamittal0920/One-Piece-3D-Website) | `TypeScript` `Three.js` | 2 |
+
+<br/>
+
+> 💗 *"I don't watch anime, I code anime."*
+
+</td>
+</tr>
+</table>
+
+<br/>
