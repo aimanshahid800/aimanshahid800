@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 320" width="420" height="320" role="img" aria-label="Top languages">
+<defs><style><![CDATA[
+text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+@keyframes fadeUp{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+@keyframes shineX{0%{transform:translateX(-140px)}60%,100%{transform:translateX(460px)}}
+.row{opacity:0;animation:fadeUp .5s ease forwards}
+.sh{animation:shineX 4s ease-in-out 2.2s infinite}
+]]></style>
+<linearGradient id="tg" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0%"><animate attributeName="stop-color" values="#ff7eb6;#c084fc;#ff7eb6" dur="6s" repeatCount="indefinite"/></stop>
+  <stop offset="100%"><animate attributeName="stop-color" values="#c084fc;#ff7eb6;#c084fc" dur="6s" repeatCount="indefinite"/></stop>
+</linearGradient>
+<linearGradient id="shg" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#fff" stop-opacity="0"/><stop offset="50%" stop-color="#fff" stop-opacity=".08"/><stop offset="100%" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<clipPath id="cardc"><rect x="1" y="1" width="418" height="318" rx="14"/></clipPath>
+<clipPath id="stackc"><rect x="20" y="58" width="0" height="11" rx="5.5"><animate attributeName="width" from="0" to="380" dur="1.4s" begin=".4s" fill="freeze" calcMode="spline" keySplines=".2 .8 .3 1"/></rect></clipPath>
+</defs>
+<rect x="1" y="1" width="418" height="318" rx="14" fill="#170e28" stroke="url(#tg)" stroke-width="1.5"/>
+<text x="20" y="34" font-size="16" font-weight="bold" fill="url(#tg)">📊 Top Languages</text>
+<g clip-path="url(#stackc)"><rect x="20.0" y="58" width="159.6" height="11" fill="#ff7a59"/><rect x="179.6" y="58" width="98.8" height="11" fill="#7db8ff"/><rect x="278.4" y="58" width="87.4" height="11" fill="#c084fc"/><rect x="365.8" y="58" width="22.8" height="11" fill="#fde047"/><rect x="388.6" y="58" width="11.4" height="11" fill="#34d399"/></g>
+
+  <g class="row" style="animation-delay:0.90s">
+    <circle cx="26" cy="91" r="5" fill="#ff7a59"/>
+    <text x="40" y="96" font-size="13" fill="#e6edf3" font-weight="bold">Python</text>
+    <text x="396" y="96" text-anchor="end" font-size="13" fill="#ff7a59" font-weight="bold">42.0%</text>
+    <rect x="40" y="104" width="268" height="9" rx="4.5" fill="#241740"/>
+    <rect class="bar" x="40" y="104" width="112.6" height="9" rx="4.5" fill="#ff7a59" style="animation-delay:1.05s">
+      <animate attributeName="width" from="0" to="112.6" dur="1.1s" begin="1.05s" fill="freeze" calcMode="spline" keySplines=".2 .8 .3 1"/>
+    </rect>
+  </g>
+  <g class="row" style="animation-delay:1.20s">
+    <circle cx="26" cy="133" r="5" fill="#7db8ff"/>
+    <text x="40" y="138" font-size="13" fill="#e6edf3" font-weight="bold">TypeScript</text>
+    <text x="396" y="138" text-anchor="end" font-size="13" fill="#7db8ff" font-weight="bold">26.0%</text>
+    <rect x="40" y="146" width="268" height="9" rx="4.5" fill="#241740"/>
+    <rect class="bar" x="40" y="146" width="69.7" height="9" rx="4.5" fill="#7db8ff" style="animation-delay:1.35s">
+      <animate attributeName="width" from="0" to="69.7" dur="1.1s" begin="1.35s" fill="freeze" calcMode="spline" keySplines=".2 .8 .3 1"/>
+    </rect>
+  </g>
+  <g class="row" style="animation-delay:1.50s">
+    <circle cx="26" cy="175" r="5" fill="#c084fc"/>
+    <text x="40" y="180" font-size="13" fill="#e6edf3" font-weight="bold">PHP</text>
+    <text x="396" y="180" text-anchor="end" font-size="13" fill="#c084fc" font-weight="bold">23.0%</text>
+    <rect x="40" y="188" width="268" height="9" rx="4.5" fill="#241740"/>
+    <rect class="bar" x="40" y="188" width="61.6" height="9" rx="4.5" fill="#c084fc" style="animation-delay:1.65s">
+      <animate attributeName="width" from="0" to="61.6" dur="1.1s" begin="1.65s" fill="freeze" calcMode="spline" keySplines=".2 .8 .3 1"/>
+    </rect>
+  </g>
+  <g class="row" style="animation-delay:1.80s">
+    <circle cx="26" cy="217" r="5" fill="#fde047"/>
+    <text x="40" y="222" font-size="13" fill="#e6edf3" font-weight="bold">CSS</text>
+    <text x="396" y="222" text-anchor="end" font-size="13" fill="#fde047" font-weight="bold">6.0%</text>
+    <rect x="40" y="230" width="268" height="9" rx="4.5" fill="#241740"/>
+    <rect class="bar" x="40" y="230" width="16.1" height="9" rx="4.5" fill="#fde047" style="animation-delay:1.95s">
+      <animate attributeName="width" from="0" to="16.1" dur="1.1s" begin="1.95s" fill="freeze" calcMode="spline" keySplines=".2 .8 .3 1"/>
+    </rect>
+  </g>
+  <g class="row" style="animation-delay:2.10s">
+    <circle cx="26" cy="259" r="5" fill="#34d399"/>
+    <text x="40" y="264" font-size="13" fill="#e6edf3" font-weight="bold">JavaScript</text>
+    <text x="396" y="264" text-anchor="end" font-size="13" fill="#34d399" font-weight="bold">3.0%</text>
+    <rect x="40" y="272" width="268" height="9" rx="4.5" fill="#241740"/>
+    <rect class="bar" x="40" y="272" width="8.0" height="9" rx="4.5" fill="#34d399" style="animation-delay:2.25s">
+      <animate attributeName="width" from="0" to="8.0" dur="1.1s" begin="2.25s" fill="freeze" calcMode="spline" keySplines=".2 .8 .3 1"/>
+    </rect>
+  </g>
+<g clip-path="url(#cardc)"><rect class="sh" x="0" y="0" width="100" height="320" fill="url(#shg)" transform="skewX(-15)"/></g>
+</svg>
