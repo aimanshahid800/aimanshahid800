@@ -37,4 +37,4 @@
 </table>
 
 <br/>
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=aimanshahid800&layout=compact&hide_border=true&bg_color=170e28&title_color=ff7eb6&text_color=e6edf3&icon_color=c084fc)
+![Top Langs](https://github-readme-stats-git-master-anuraghazra1.vercel.app/api/top-langs/?username=aimanshahid800&layout=compact&hide_border=true&bg_color=170e28&title_color=ff7eb6&text_color=e6edf3&icon_color=c084fc)
