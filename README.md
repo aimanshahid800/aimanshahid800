@@ -14,11 +14,11 @@
 
 ### 🚀 Featured Projects
 
-| Project | Tech | Description |
-|:---|:---:|:---|
-| [🎓 Google Classroom Clone](https://github.com/aimanshahid800/google-classroom-clone-2) | `PHP` `MySQL` `CSS` | Full-stack classroom app with role-based access, assignments & dark mode — built with a 4-member team |
-| [🤖 Nyra Chatbot](https://github.com/aimanshahid800/Nyra-AI-Chatbot) | `FastAPI` `Qdrant` `RAG` | Personal RAG-based study assistant with glassmorphic dark UI |
-| [🎯 Mood-Sync](https://github.com/aimanshahid800) | `Python` `FastAPI` `React` `Supabase` | Mood-based task filter and scheduler |
+| Project | Tech | 
+|:---|:---:|
+| [🎓 Google Classroom Clone](https://github.com/aimanshahid800/google-classroom-clone-2) | `PHP` `MySQL` `CSS` | 
+| [🤖 Nyra Chatbot](https://github.com/aimanshahid800/Nyra-AI-Chatbot) | `FastAPI` `Qdrant` `RAG` | 
+| [🎯 Mood-Sync](https://github.com/aimanshahid800) | `Python` `FastAPI` `React` `Supabase` | 
 
 <br/>
 
