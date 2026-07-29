@@ -54,7 +54,7 @@
 <br/><br/>
 
 ### 🐍 Watch the snake eat my contributions
-<img src="https://raw.githubusercontent.com/aimanshahid800/aimanshahid800/output/github-snake.svg" alt="Contribution snake"/>
+<img src="https://raw.githubusercontent.com/aimanshahid800/aimanshahid800/output/github-snake-dark.svg" alt="Contribution snake"/>
 
 <br/><br/>
 
