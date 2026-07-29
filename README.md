@@ -1,6 +1,6 @@
 <div align="center">
 <!-- ✨ Animated Banner ✨ -->
-<img src="./Banner_fixed (6).svg" alt="Aiman Shahid — Agentic AI Developer" width="100%"/>
+<img src="./Banner_fixed (6)(1).svg" alt="Aiman Shahid — Agentic AI Developer" width="100%"/>
 </div>
 <br/>
 
